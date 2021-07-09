@@ -8,4 +8,4 @@ jobs:
     - uses: actions/checkout@v2
     - uses: todogroup/repolinter-action@v1
       with:
-        config_url: https://raw.githubusercontent.com/twitter/.github/master/repolinter-rulesets/default.yaml
+        config_file: .github/repolinter.yaml
