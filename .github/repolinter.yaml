@@ -1,0 +1,6 @@
+extends: https://raw.githubusercontent.com/twitter/.github/master/repolinter-rulesets/default.yaml
+rules:
+  codemeta-file-exists:
+    level: off
+  integrates-with-ci:
+    level: off
