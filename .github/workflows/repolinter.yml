@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: willnorris/repolinter-action@getconfig
+    - uses: willnorris/repolinter-action@getconfig-test
       with:
         config_file: .github/repolinter.yaml
